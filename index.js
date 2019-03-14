@@ -4,7 +4,7 @@ findBy(array, findFn) which looks for a value in array based on the return value
 */
 function breakOut(array, changeValue, stopValue) {
   for( let i = 0; i < array.length; i += 1) {
-    if( c === stopValue) {
+    if( i === stopValue) {
       break;
     }
     array[i] = changeValue;
